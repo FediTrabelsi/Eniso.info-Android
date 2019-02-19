@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Générale">
+            <menu>
+        <item
+            android:id="@+id/nav_wall"
+            android:icon="@drawable/wall2"
+            android:title="Mon Mur" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/prof"
+                    android:title="Mon profile" />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Education">
+        <menu>
+            <item
+                android:id="@+id/nav_timetable"
+                android:icon="@drawable/cal"
+                android:title="Mon Emploi" />
+            <item
+                android:id="@+id/nav_grtimetable"
+                android:icon="@drawable/gr"
+                android:title="Emplois par groups" />
+            <item
+                android:id="@+id/nav_teachertimetable"
+                android:icon="@drawable/aganda"
+                android:title="Emploi par enseigneant" />
+            <item
+                android:id="@+id/nav_calendar"
+                android:icon="@drawable/even"
+                android:title="Calendrier" />
+            <item
+                android:id="@+id/nav_groups"
+                android:icon="@drawable/grps"
+                android:title="Projets et Equipes innbovation" />
+
+            <item
+                android:id="@+id/nav_doc"
+                android:icon="@drawable/doc"
+                android:title="Documents" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Plan d'étude" />
+        </menu>
+    </item>
+    <item android:title="Evaluation">
+        <menu>
+            <item
+                android:id="@+id/nav_eval"
+                android:icon="@drawable/eval"
+
+                android:title="Evaluation des profs" />
+
+        </menu>
+    </item>
+
+
+</menu>

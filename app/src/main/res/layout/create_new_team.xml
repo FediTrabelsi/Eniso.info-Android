@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round">
+
+    <TextView
+        android:id="@+id/tmcreate"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="15dp"
+        android:text="Equipe" />
+
+    <TextView
+        android:id="@+id/descinfo"
+        android:layout_width="165dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="131dp"
+        android:text="Description :"
+        android:textColor="@color/White"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tmdiscr"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/alldisc"
+        android:layout_below="@+id/tmcreate"
+        android:background="@drawable/desc"
+        android:ems="10"
+        android:hint="Nom d'équipe"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/alldisc"
+        android:layout_width="281dp"
+        android:layout_height="149dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/desc"
+        android:ems="10"
+        android:hint="Saisir une petite description description"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="20dp"
+        android:text="Créer" />
+
+    <Button
+        android:id="@+id/annuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="20dp"
+        android:text="Annuler" />
+</RelativeLayout>

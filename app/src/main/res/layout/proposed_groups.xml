@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/line3"
+
+    android:orientation="vertical"
+
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <TextView
+            android:id="@+id/equipe1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textviews"
+
+            android:paddingLeft="15dp"
+
+            android:text="Equipe" />
+
+        <TextView
+            android:id="@+id/respproj1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/textviews"
+
+            android:paddingLeft="15dp"
+            android:text="Caoch" />
+
+        <TextView
+            android:id="@+id/Descrip1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="116dp"
+            android:background="@drawable/textviews"
+
+            android:paddingLeft="15dp"
+            android:text="Description :" />
+
+        <TextView
+            android:id="@+id/alldiscrip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="56dp"
+            android:layout_marginTop="146dp"
+
+            android:background="@drawable/bot"
+            android:paddingLeft="30dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/join1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:text="Rejoindre" />
+
+        <TextView
+            android:id="@+id/occ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/respproj1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="139dp"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/occ21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/equipe1"
+            android:layout_marginEnd="67dp"
+            android:text="TextView"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+

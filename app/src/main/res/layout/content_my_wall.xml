@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fedi.trabelsi.tp2.ia2.eniso.eniso.My_Wall.MyWall"
+    tools:showIn="@layout/app_bar_my_wall">
+    <TextView
+        android:id="@+id/mur"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        android:layout_alignParentTop="true"
+        android:text="Mon Mur" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvmur"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/mur" />
+
+</RelativeLayout>
